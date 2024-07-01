@@ -32,16 +32,13 @@
   },
   "dependencies": {
     "@cowprotocol/contracts": "^1.6.0",
-    "@ethersproject/abstract-signer": "^5.7.0",
+    "ethers": "^5.7.2",
     "@openzeppelin/merkle-tree": "^1.0.5",
     "cross-fetch": "^3.1.5",
     "exponential-backoff": "^3.1.1",
     "graphql": "^16.3.0",
     "graphql-request": "^4.3.0",
     "limiter": "^2.1.0"
-  },
-  "peerDependencies": {
-    "ethers": "^5.7.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
@@ -62,7 +59,6 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-unused-imports": "^3.0.0",
-    "ethers": "^5.7.2",
     "jest": "^29.6.4",
     "jest-fetch-mock": "^3.0.3",
     "microbundle": "^0.15.1",
@@ -99,5 +95,6 @@
     "crypto",
     "typescript",
     "subgraph"
-  ]
+  ],
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
